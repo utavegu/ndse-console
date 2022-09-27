@@ -1,6 +1,13 @@
 {
   "name": "1-2-console",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "get-date.js",
+  "license": "MIT",
+  "bin": {
+    "cmd": "./get-date.js"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "yargs": "^17.5.1"
+  }
 }
