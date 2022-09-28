@@ -1,6 +1,9 @@
 {
   "name": "1-2-console",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "think-number.js",
+  "license": "MIT",
+  "bin": {
+    "game": "./think-number.js"
+  }
 }
